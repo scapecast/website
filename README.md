@@ -17,6 +17,7 @@ Open [http://127.0.0.1:4000](http://127.0.0.1:4000) and edit the pages.
 
 When done
 ```
+$ git commit -aS -m "My changes"
 $ git push origin your-feature-branch
 ```
 and [open a pull request](https://github.com/someengineering/website/compare) between base `main` and `your-feature-branch`.
