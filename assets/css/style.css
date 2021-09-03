@@ -394,7 +394,7 @@ h1 {
 .legal {
   text-align: center;
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   margin-left: auto;
   margin-right: auto;
