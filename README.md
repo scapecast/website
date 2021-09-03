@@ -9,7 +9,7 @@ Then
 $ git clone git@github.com:someengineering/website.git
 $ cd website
 $ git checkout -b your-feature-branch
-$ gem install bundle
+$ gem install bundler jekyll
 $ bundle exec jekyll serve
 ```
 
