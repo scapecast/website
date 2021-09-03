@@ -10,6 +10,7 @@ $ git clone git@github.com:someengineering/website.git
 $ cd website
 $ git checkout -b your-feature-branch
 $ gem install bundler jekyll
+$ bundle config set --local path 'vendor/bundle'
 $ bundle install
 $ bundle exec jekyll serve
 ```
