@@ -17,7 +17,7 @@ title: Some Engineering - Home
 
 <center><a href="https://github.com/someengineering/"><img src="/assets/images/logo_animated.png" class="logo"></a></center>
 <div class="cloud-bg-wrapper"><div class="cloud-bg"></div><div class="cloud-bg-fill"></div></div>
-<center><h1>Cloudkeeper is search and workflows for your AWS infrastructure.</h1></center>
+<center><h1>Cloudkeeper is search and workflows for your multicloud infrastructure.</h1></center>
 
 <ul class="soc">
   <li>
