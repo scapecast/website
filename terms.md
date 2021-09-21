@@ -4,7 +4,7 @@ title: Some Engineering - Terms and Conditions
 ---
 <center><a href="index.html"><img src="/assets/images/SomeEngineering_Logo_m.png" class="logo"></a></center>
 <center><h1><strong>Terms and Conditions</strong></h1></center>
-
+<div class="legal-block">
 <p class="legal-text">Welcome to Some Engineering!</p>
 
 <p class="legal-text">These terms and conditions outline the rules and regulations for the use of Some Engineering Inc.'s Website, located at https://some.engineering/.</p>
@@ -126,3 +126,4 @@ title: Some Engineering - Terms and Conditions
 <p class="legal-text">The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.</p>
 
 <p class="legal-text">As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
+</div>

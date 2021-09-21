@@ -11,8 +11,8 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   color: #1a83af;
-  background-color: #041627;
-  background-image: linear-gradient( #041627, #123d66);
+  background-color: #0a253f;
+  
 }
 
 a {
@@ -66,10 +66,9 @@ h1 {
   font-size: 0;
   list-style: none;
   margin: 0 auto;
-  padding: 4.8rem;
   text-align: center;
   width: 110rem;
-  max-width: 100%;
+  max-width: 90%;
 }
 .soc li {
   display: inline-block;
@@ -96,6 +95,7 @@ h1 {
 }
 
 #Clouds {
+  background-image: linear-gradient( #000d19, #0a2946);
   z-index: -1;
   position: absolute;
   top: 0;
@@ -400,11 +400,64 @@ h1 {
   color: #0054a3;
 }
 
-.legal-text {
+.legal-block {
   width: 70%;
+  margin: auto;
+}
+
+h3 {
+  margin-top: 4rem;
+}
+
+ul {
+  padding-inline-start: 0;
 }
 
 @-webkit-keyframes move-bg {
   from { transform: translateX(0%); }
   to { transform: translateX(-50%); }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .logo {
+    width: 90%;
+  }
+
+  .soc a {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .soc li {
+    margin: 0.5rem;
+  }
+
+  .legal-block {
+    width: 90%;
+    margin: 1rem;
+  }
+
+  h3 {
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  ul {
+    width: 85%;
+  }
+}
+
+@media only screen and (orientation:landscape) and (max-width: 900px) {
+  .logo {
+    width: 25%;
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  #Clouds {
+    height: 100%;
+  }
 }
