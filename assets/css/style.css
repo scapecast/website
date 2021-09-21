@@ -409,6 +409,10 @@ h3 {
   margin-top: 4rem;
 }
 
+ul {
+  padding-inline-start: 0;
+}
+
 @-webkit-keyframes move-bg {
   from { transform: translateX(0%); }
   to { transform: translateX(-50%); }
@@ -421,8 +425,12 @@ h3 {
   }
 
   .soc a {
-    height: 7rem;
-    width: 7rem;
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .soc li {
+    margin: 0.5rem;
   }
 
   .legal-block {
